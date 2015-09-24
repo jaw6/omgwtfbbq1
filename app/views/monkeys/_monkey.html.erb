@@ -3,7 +3,7 @@
   <%= link_to "Update",
               monkey_path(
                 monkey,
-                name: monkey.name + (monkey.name =~ /the monkey/ ? " monkey!" : "the monkey!")
+                name: monkey.name + (monkey.name =~ /the monkey/ ? " monkey!" : " the monkey!")
               ),
               class: 'monkey',
               data: {id: monkey.id} %>
